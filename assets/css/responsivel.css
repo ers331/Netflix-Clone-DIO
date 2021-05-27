@@ -1,0 +1,30 @@
+@media screen and (max-width:460px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .filme-principal {
+    height: 100%;
+  }
+  .btn {
+    margin-top: 5px;
+    width: 200px;
+    font-size: 11px;
+  }
+  footer p {
+    font-size: 20px;
+    padding-top: 155;
+  }
+  .btna {
+    margin-left: 4%;
+    margin-top: 45px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  .descricao {
+    width: 50%;
+    line-height: 22px;
+  }
+}

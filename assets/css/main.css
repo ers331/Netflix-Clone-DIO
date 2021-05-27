@@ -1,0 +1,163 @@
+:root {
+  --vermelho: #e50914;
+  --preta: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  background: var(--preta);
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+h3 {
+  color: #ffff;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*menu*/
+
+.logo {
+  height: 70px;
+  margin-left: 15px;
+}
+
+nav a {
+  color: #aaa;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  color: #ffff
+}
+
+/*caixa de filmes principal*/
+
+.filme-principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(/assets/img/lOSdUkGQmbAl5JQ3QoHqBZUbZhC.jpg);
+  height: 550px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .descricao {
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.subtitulo {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.titulo {
+  margin-top: 15%;
+  font-size: 40px;
+  font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 50%);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn i {
+  margin-right: 5px;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.btns {
+  margin-left: 20px;
+}
+
+.filme-principal .container {
+  width: 70%;
+}
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.titulo3 {
+  font-size: 45px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.box-doc {
+  height: 200%;
+  width: 100%;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 45px;
+  height: 300px;
+  margin-bottom: 20px;
+  background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(/assets/img/BR-pt-20210524-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+}
+
+/*RODA PÉ*/
+
+footer p {
+  font-size: 45px;
+  text-align: center;
+  padding-top: 8%;
+}
+
+.btna {
+  background-color: #e50914;
+  height: 45px;
+  width: 300px;
+  margin-left: 35%;
+  margin-top: 5%;
+  border: none;
+  font-size: 20px;
+  color: #ffff;
+  box-shadow: 0 1px 0 rgba(0 0 0 / 45%);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btna:hover {
+  background-color: #da0c16;
+}
